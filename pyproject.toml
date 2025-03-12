@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aurupd"
+version = "0.1.0"
+authors = [
+    { name = "Iris Junckes", email = "me@junckes.dev" }
+]
+description = "Automatically update git-style AUR packages"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["aur", "update", "automation", "git"]
+
+[project.urls]
+Homepage = "https://github.com/j-junckes/aurupd"
+"Bug Tracker" = "https://github.com/j-junckes/aurupd/issues"
+
+[project.scripts]
+aurupd-cli = "aurupd.cli:main"
