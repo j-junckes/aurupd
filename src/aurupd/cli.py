@@ -3,9 +3,9 @@
 import argparse
 from termcolor import colored
 
-from aurpackage import AurPackage
-from aurjsonclient import AurJsonClient
-from istool import is_tool
+from aurupd.aurpackage import AurPackage
+from aurupd.aurjsonclient import AurJsonClient
+from aurupd.istool import is_tool
 
 def main():
     parser = argparse.ArgumentParser(description="AUR package updater")

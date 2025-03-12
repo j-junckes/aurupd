@@ -1,5 +1,5 @@
 import requests
-from aurpackage import AurPackage
+from aurupd.aurpackage import AurPackage
 
 class AurJsonClient:
     def __init__(self):
